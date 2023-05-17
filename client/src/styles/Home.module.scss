@@ -1,0 +1,39 @@
+.container {
+  height: 100vh;
+  background: transparent url("/LaunchScreen/background.svg") 0% 0% no-repeat
+    padding-box;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.moneyLogo,
+.appName {
+  grid-column: 1;
+  grid-row: 1;
+  justify-items: center;
+  padding-top: 10%;
+}
+
+.moneyLogo {
+  opacity: 1;
+}
+
+.appName {
+  font-weight: lighter;
+  font-size: 22px;
+  padding-top: 28%;
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+}
+
+.buttons {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}

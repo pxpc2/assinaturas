@@ -1,0 +1,16 @@
+.button {
+  border-radius: 12px;
+  border-style: none;
+
+  &.primary {
+    background-color: #8f57ff;
+    font-size: larger;
+    color: #eee5ff;
+  }
+
+  &.secondary {
+    background-color: #eee5ff;
+    font-size: larger;
+    color: #8f57ff;
+  }
+}
