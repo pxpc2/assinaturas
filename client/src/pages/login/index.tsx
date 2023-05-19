@@ -9,7 +9,7 @@ export default function LoginPage() {
     <div className={styles.container}>
       <div className={styles.titlebar}>
         <Link href={"/"}>
-          <Image src={arrow} alt="go back" />
+          <Image src={arrow} alt="go back" className={styles.img} />
         </Link>
         <p>Login</p>
       </div>

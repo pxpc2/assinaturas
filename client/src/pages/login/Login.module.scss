@@ -1,6 +1,6 @@
 .container {
-  height: 100vh;
-  width: 100vh;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 56px;
@@ -11,10 +11,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: nowrap;
   padding-top: 20%;
   text-align: center;
-  width: 333px;
+  width: 80%;
   p {
     font-size: 18px;
     font-weight: 500;
@@ -24,12 +23,13 @@
 }
 
 .form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
   align-items: center;
   input {
-    width: 318px;
+    width: 80%;
     height: 23%;
     min-height: 50px;
     background: #ffffff;
@@ -57,6 +57,18 @@
     span {
       color: #7f3dff;
       text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .titlebar {
+    padding-top: 15%;
+    max-width: 700px;
+  }
+  .form {
+    input {
+      max-width: 700px;
     }
   }
 }

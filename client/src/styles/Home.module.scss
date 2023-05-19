@@ -14,7 +14,7 @@
   grid-column: 1;
   grid-row: 1;
   justify-items: center;
-  padding-top: 10%;
+  padding-top: 10px;
 }
 
 .moneyLogo {
@@ -36,4 +36,10 @@
   display: flex;
   flex-flow: column;
   gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .appName {
+    padding-top: 5%;
+  }
 }
